@@ -1,0 +1,7 @@
+cradle:
+  cabal:
+    - path: "./src"
+      component: "lib:module-deprecate"
+
+    - path: "./app/Main.hs"
+      component: "module-deprecate:exe:module-deprecate"
